@@ -38,60 +38,6 @@
 		}
 	}
 
-	"ComfigLink"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"ComfigLink"
-		"xpos"					"0"
-		"ypos"					"5"
-		"zpos"					"1"
-		"wide"					"18"
-		"tall"					"18"
-		"visible"				"1"
-		"bgcolor_override"		"67 147 136 255"
-		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"GitLink"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-
-		"ComfigUrl"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"ComfigUrl"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"2"
-			"wide"					"f0"
-			"tall"					"f0"
-			"font"					"FontBold18"
-			"labelText"				""
-			"enabled"				"1"
-			"visible"				"1"
-			"paintBackground"		"0"
-			"textAlignment"			"center"
-			"fgcolor_override"		"HudWhite"
-			"proportionaltoparent"	"1"
-			"urlText"				"https://comfig.app/huds/page/flawhud/"
-		}
-
-		"ComfigLogo"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"ComfigLogo"
-			"xpos"					"cs-0.5"
-			"ypos"					"cs-0.5"
-			"wide"					"17"
-			"tall"					"17"
-			"proportionaltoparent"	"1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"replay/thumbnails/comfig"
-			"scaleimage"			"1"
-			"alpha"					"120"
-		}
-	}
-
 	"DiscordLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -105,7 +51,7 @@
 		"bgcolor_override"		"88 101 242 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"ComfigLink"
+		"pin_to_sibling"		"GitLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
@@ -133,10 +79,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"DiscordLogo"
-			"xpos"					"cs-0.55"
+			"xpos"					"cs-0.51"
 			"ypos"					"cs-0.5"
 			"wide"					"13"
-			"tall"					"11"
+			"tall"					"13"
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
@@ -153,44 +99,44 @@
 		"xpos"					"6"
 		"ypos"					"5"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"29"
 		"tall"					"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"Black"
+		"fillcolor"				"44 44 44 255"
 
 		"pin_to_sibling"		"DiscordLink"
         "pin_corner_to_sibling"	"PIN_TOPLEFT"
         "pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
-	"PotatoLink"
+
+	"ComfigLink"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"PotatoLink"
+		"fieldName"				"ComfigLink"
 		"xpos"					"0"
 		"ypos"					"12"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
 		"visible"				"1"
-		"bgcolor_override"		"17 17 17 255"
+		"bgcolor_override"		"ComfigGreen"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"DiscordLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
-		"PotatoUrl"
+		"ComfigUrl"
 		{
 			"ControlName"			"URLLabel"
-			"fieldName"				"PotatoUrl"
+			"fieldName"				"ComfigUrl"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"2"
 			"wide"					"f0"
 			"tall"					"f0"
-			"font"					"SmallIcons"
+			"font"					"FontBold18"
 			"labelText"				""
 			"enabled"				"1"
 			"visible"				"1"
@@ -198,21 +144,21 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://potato.tf/servers"
+			"urlText"				"https://comfig.app/quickplay"
 		}
 
-		"PotatoLogo"
+		"ComfigLogo"
 		{
 			"ControlName"			"ImagePanel"
-			"fieldName"				"CreatorsLogo"
-			"xpos"					"cs-0.5"
-			"ypos"					"cs-0.5"
-			"wide"					"17"
-			"tall"					"17"
+			"fieldName"				"ComfigLogo"
+			"xpos"					"cs-0.52"
+			"ypos"					"cs-0.52"
+			"wide"					"13"
+			"tall"					"13"
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/potato"
+			"image"					"replay/thumbnails/comfig"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}
@@ -231,7 +177,7 @@
 		"bgcolor_override"		"181 64 60 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"PotatoLink"
+		"pin_to_sibling"		"ComfigLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
@@ -259,14 +205,68 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"UncleLogo"
-			"xpos"					"cs-0.5"
-			"ypos"					"cs-0.5"
+			"xpos"					"cs-0.53"
+			"ypos"					"cs-0.47"
 			"wide"					"15"
 			"tall"					"15"
 			"proportionaltoparent"	"1"
 			"visible"				"1"
 			"enabled"				"1"
 			"image"					"replay/thumbnails/uncletopia"
+			"scaleimage"			"1"
+			"alpha"					"120"
+		}
+	}
+	
+	"PotatoLink"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"PotatoLink"
+		"xpos"					"0"
+		"ypos"					"5"
+		"zpos"					"1"
+		"wide"					"18"
+		"tall"					"18"
+		"visible"				"1"
+		"bgcolor_override"		"54 54 54 255"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"UncleLink"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+
+		"PotatoUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"PotatoUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"SmallIcons"
+			"labelText"				""
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"center"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://potato.tf/servers"
+		}
+
+		"PotatoLogo"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"CreatorsLogo"
+			"xpos"					"cs-0.53"
+			"ypos"					"cs-0.5"
+			"wide"					"16"
+			"tall"					"16"
+			"proportionaltoparent"	"1"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"replay/thumbnails/potato"
 			"scaleimage"			"1"
 			"alpha"					"120"
 		}

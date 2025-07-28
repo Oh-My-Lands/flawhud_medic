@@ -26,6 +26,18 @@ Scheme
 			}
 		}
 		
+		"MediumSmallIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"20"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"SmallIcons"
 		{
 			"1"
@@ -49,14 +61,31 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+		"StreamerMode"
+		{
+			"1"
+			{
+				"name"			"Streamer Mode"
+				"tall"			"15"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 	}
 	
 	CustomFontFiles
 	{
 		"121"
 		{
-			"font"	"resource/fonts/TF2Icons.ttf"
+			"font"	"resource/fonts/icons.ttf"
 			"name"	"TF2Icons"
+		}
+		"122"
+		{
+			"font"	"resource/fonts/streamer-mode.ttf"
+			"name"	"Streamer Mode"
 		}
 	}
 }

@@ -286,10 +286,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"17"
+				"name"			"Verdana"
+				"tall"			"14"
 				"weight"		"500"
-				"antialias" 	"1"
 			}
 		}
 
@@ -344,12 +343,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [disabled]
-				"weight"	"1500"
-				"tall"		"16" [!$OSX]
-				"tall"		"18" [disabled]
-				"antialias"	"1"
+				"name"			"Arial" [!$OSX]
+				"name"			"Verdana Bold" [disabled]
+				"weight"		"1500"
+				"tall"			"16" [!$OSX]
+				"tall"			"18" [disabled]
+				"antialias"		"1"
 			}
 		}
 
@@ -357,12 +356,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [disabled]
-				"weight"	"1500"
-				"tall"		"18" [!$OSX]
-				"tall"		"19" [disabled]
-				"antialias"	"1"
+				"name"			"Arial" [!$OSX]
+				"name"			"Verdana Bold" [disabled]
+				"weight"		"1500"
+				"tall"			"18" [!$OSX]
+				"tall"			"19" [disabled]
+				"antialias"		"1"
 			}
 		}
 
@@ -370,12 +369,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [disabled]
-				"weight"	"1000"
-				"tall"		"14" [!$OSX]
-				"tall"		"12" [disabled]
-				"antialias"	"1" [!$OSX]
+				"name"			"Arial" [!$OSX]
+				"name"			"Verdana" [disabled]
+				"weight"		"1000"
+				"tall"			"14" [!$OSX]
+				"tall"			"12" [disabled]
+				"antialias"		"1" [!$OSX]
 			}
 		}
 
